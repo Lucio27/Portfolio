@@ -1,6 +1,3 @@
-from abc import ABC
-
-
 def f_to_c(f_temp):
     c_temp = (f_temp - 32) * 5/9
     return c_temp
@@ -17,8 +14,6 @@ def get_energy(mass,c = 3*10**8):
 
 def get_work(mass,acceleration,distance):
     return get_force(mass,acceleration) * distance
-
-    
 
 train_mass = 22680
 train_acceleration = 10
