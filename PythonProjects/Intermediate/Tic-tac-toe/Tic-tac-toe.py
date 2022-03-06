@@ -15,6 +15,8 @@ def run():
     the corresponding number (1 = Solo player , 2 = Two players):
     
     """
+
+    #In this line, the user choce 
     mode = int(input(welcome))
 
     Instructions = """
